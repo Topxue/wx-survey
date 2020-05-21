@@ -11,7 +11,7 @@ class Axios {
     wx.showNavigationBarLoading()
     return new Promise((resolve, reject) => {
       wx.request({
-        url: `${dev.host}${url}`, // 仅为示例，并非真实的接口地址
+        url: `${dev.host}${url}`,
         method: method,
         data: data,
         header: {
@@ -41,9 +41,10 @@ class Axios {
   }
 }
 
-function request() {
+// 初始化请求类
+function init() {
   return new Axios()
 }
 
 // 导出请求类
-export default request();
+export default init();
