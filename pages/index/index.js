@@ -1,6 +1,6 @@
 //index.js
 //获取应用实例
-import { getApi } from  '../../model/index'
+import { getApi } from  '../../api/index'
 
 const app = getApp()
 Page({
