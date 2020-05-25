@@ -1,6 +1,6 @@
 import {
   dev
-} from '../env'
+} from './env'
 
 /**
  * wx.request封装
