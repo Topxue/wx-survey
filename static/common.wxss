@@ -1,0 +1,9 @@
+/* 公共样式 */
+page {
+  --fontColor: red;
+}
+
+/* 公共样式CSS样式类 */
+.show-component {
+  color: blue;
+}

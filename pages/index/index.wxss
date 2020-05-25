@@ -1,4 +1,6 @@
 /**index.wxss**/
+@import '../../static/common.wxss';
+
 .userinfo {
   display: flex;
   flex-direction: column;
@@ -13,7 +15,7 @@
 }
 
 .userinfo-nickname {
-  color: #aaa;
+  color: var(--fontColor);
 }
 
 .usermotto {
